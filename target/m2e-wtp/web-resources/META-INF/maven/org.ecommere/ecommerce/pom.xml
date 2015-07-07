@@ -53,12 +53,6 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- SPRINGSIDE -->
-		<dependency>
-			<groupId>io.springside</groupId>
-			<artifactId>springside-core</artifactId>
-			<version>${springside.version}</version>
-		</dependency>
 
 		<!-- PERSISTENCE begin -->
 		<!-- hibernate -->
@@ -229,13 +223,6 @@
 		<!-- GENERAL UTILS end -->
 
 		<!-- TEST begin -->
-		<dependency>
-			<groupId>io.springside</groupId>
-			<artifactId>springside-core</artifactId>
-			<version>${springside.version}</version>
-			<classifier>tests</classifier>
-			<scope>test</scope>
-		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
